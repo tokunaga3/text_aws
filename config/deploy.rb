@@ -4,7 +4,7 @@ lock '3.6.0'
 set :application, 'sample'
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/tokunaga3/text_aws'
+set :repo_url, 'https://github.com/tokunaga3/text_aws.git'
 # deployするブランチ。デフォルトはmasterなのでなくても可。
 set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
